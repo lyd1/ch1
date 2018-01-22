@@ -8,6 +8,6 @@ public class HellowordController {
     @RequestMapping("/")
     @ResponseBody
     public  String say(){
-        return "hello spring boot";
+        return "hello spring boot!";
     }
 }
